@@ -23,8 +23,10 @@ console-ports:
 interfaces:
   - name: Management1
     type: 1000base-t
+    mgmt_only: true
   - name: Management2
     type: 1000base-t
+    mgmt_only: true
   - name: Host1
     type: 800gbase-x-osfp
   - name: Host2

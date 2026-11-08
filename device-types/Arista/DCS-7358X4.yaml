@@ -23,8 +23,10 @@ rear_image: false
 interfaces:
   - name: Management1
     type: 1000base-t
+    mgmt_only: true
   - name: Management2
     type: 1000base-t
+    mgmt_only: true
 
 module-bays:
   - name: Linecard Slot 1
