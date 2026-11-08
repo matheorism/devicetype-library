@@ -1,0 +1,24 @@
+---
+manufacturer: Juniper
+model: MX10003-LC2103
+part_number: MX10003-LC2103
+weight: 13.61
+weight_unit: kg
+comments: |
+  [MX10003 Universal Routing Platform Hardware Guide](https://networkingdocs.hpe.com/documentation/us/en/hardware/mx10003/mx10003.pdf)
+
+  MX10003 MPC (Multi-Rate): six built-in QSFP+ ports (PIC 0, 40GbE or 4x10GbE) and one MIC slot (PIC 1), empty in this module type.
+  For the MPC with the Multi-Rate Ethernet MIC installed, use "MX10003-LC2103 with JNP-MIC1".
+interfaces:
+  - name: et-{module}/0/0
+    type: 40gbase-x-qsfpp
+  - name: et-{module}/0/1
+    type: 40gbase-x-qsfpp
+  - name: et-{module}/0/2
+    type: 40gbase-x-qsfpp
+  - name: et-{module}/0/3
+    type: 40gbase-x-qsfpp
+  - name: et-{module}/0/4
+    type: 40gbase-x-qsfpp
+  - name: et-{module}/0/5
+    type: 40gbase-x-qsfpp

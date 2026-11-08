@@ -1,0 +1,15 @@
+---
+manufacturer: Juniper
+model: JNP10003-RE1
+part_number: JNP10003-RE1
+comments: |
+  [MX10003 Universal Routing Platform Hardware Guide](https://networkingdocs.hpe.com/documentation/us/en/hardware/mx10003/mx10003.pdf)
+
+  MX10003 Routing and Control Board (RCB): Routing Engine and Control Board in one unit.
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
